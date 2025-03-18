@@ -27,5 +27,5 @@ To clone and run this project on your local machine, follow these steps:
 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/your-username/react-landing-page.git
-cd react-landing-page
+git clone https://github.com/your-username/ReactLandingPageTask.git
+cd ReactLandingPageTask
