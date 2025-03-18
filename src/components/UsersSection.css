@@ -1,0 +1,52 @@
+/* Users Section */
+.users-section {
+    text-align: center;
+    padding: 40px;
+    background: #1a1a1a; /* Black Background */
+    color: white;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #800000; /* Maroon Border */
+    border-radius: 5px;
+    background: #2c2c2c;
+    color: white;
+    font-size: 16px;
+  }
+  
+  /* User Cards */
+  .users-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .user-card {
+    background: #800000; /* Maroon Card */
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    border: 2px solid white; /* White Border */
+    color: white;
+    transition: transform 0.3s ease;
+  }
+  
+  .user-card:hover {
+    transform: scale(1.05);
+    background: #a52a2a; /* Slightly lighter Maroon on Hover */
+  }
+  
+  .no-results {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ff5252;
+  }
+  

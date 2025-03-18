@@ -1,0 +1,30 @@
+/* Pricing Section */
+.pricing-section {
+  text-align: center;
+  padding: 40px;
+  background: #1a1a1a; /* Black Background */
+  color: white;
+}
+
+/* Pricing Cards */
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pricing-card {
+  background: #800000; /* Maroon Card */
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+  border: 2px solid white; /* White Border */
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: scale(1.05);
+  background: #a52a2a;
+}

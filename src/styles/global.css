@@ -1,0 +1,74 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000; /* Set full black background */
+    color: white;
+  }
+  
+  /* Containers */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.9); /* Slight transparency */
+    border-radius: 10px;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #800000; /* Maroon */
+    color: white;
+    transition: 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background: #a52a2a; /* Lighter Maroon */
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: black;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+    height: 60vh;
+    background: url('/path-to-image.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    background: #1a1a1a; /* Dark Grey for contrast */
+    border: 2px solid #800000;
+  }
+  
+  /* Cards */
+  .service-card, .pricing-card {
+    background: #1a1a1a; /* Dark Grey */
+    color: white;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .service-card:hover, .pricing-card:hover {
+    transform: scale(1.05);
+    background: #333; /* Slightly Lighter Black */
+  }
+  
